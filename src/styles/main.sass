@@ -1,0 +1,86 @@
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+h1
+  font-size: 45pt
+  color: white
+h2
+  font-size: 40pt
+  color: white
+h3
+  font-size: 35pt
+  color: white
+h4
+  font-size: 24pt  
+  color: white
+p, a 
+  font-size: 14pt
+  line-height: 24pt
+  color: white
+.header
+  background: url("../img/back.png") no-repeat center top
+  background-size: cover 
+  height: 1069px
+  &__top
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    padding: 2.5% 3.5%
+  &__menu-list
+    min-width: 675px
+    display: flex
+    justify-content: space-around
+    list-style: none
+  &__menu-link
+    text-decoration: none
+  &__slogan
+    padding: 35% 0% 15% 3%
+    &-small
+      padding-left: 15%
+.main
+  background-color: #a2ca28
+  &-wrapper
+    padding: 5% 10%
+    &__text
+      display: flex
+      justify-content: space-between
+      flex-wrap: wrap
+      height: 240px
+      margin-bottom: 15%
+    &__offer
+      display: flex
+      flex-flow: wrap column
+  &-text
+    flex-basis: 300px
+    height: 340px
+    display: flex
+    flex-direction: column
+    &__wrap
+      flex-grow: 1
+    &__name , &__text
+      margin-bottom: 7%
+    &__link
+      align-content: flex-end
+      text-decoration: none
+  &-offer
+    width: 400px
+    height: 400px
+    padding: 40px
+    text-align: center
+    background-color: #fff
+    &__prename
+      color: #fd634e
+    &__name
+      color: #a2ca28
+    &__text
+      color: #000
+    &__link
+      color: #a2ca28
+    &--long
+      width: 800px
+  &-image
+    width: 66%
+    
+
+  
