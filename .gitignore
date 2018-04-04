@@ -9,3 +9,11 @@ Thumbs.db
 _config.yml
 /node_modules
 .vscode/
+/gulp
+/src
+.bowerrc
+.gitignore
+LICESNSE
+gulpfile.js
+package-lock.json
+package.json
