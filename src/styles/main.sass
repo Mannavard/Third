@@ -128,7 +128,8 @@ p, a
     max-width: 40%
     margin: auto
 .footer
-  background-color: #000
+  padding-top: 5%
+  background-color: #0d1119
   height: 600px
   &__main-wrap
     display: flex
@@ -144,3 +145,30 @@ p, a
     max-width: 60%
   &__social
     max-width: 40%
+    flex-grow: 1
+    display: flex
+    flex-flow: wrap column
+    align-items: center
+    &-wrap
+      display: flex
+    &-img
+      margin: 10px
+  &__text
+    color: #8297a7
+  &__input
+    height: 30px
+    padding: 10px
+    margin: 20px 5px
+    border-radius: 3px
+    border-style: none
+    &-wrap
+      margin-left: -5px
+      display: flex
+    &--name
+      width: 25%
+    &--mail
+      width: 50%
+    &--butt
+      width: 25%
+      background-color: #a2ca28
+      color: #fff
