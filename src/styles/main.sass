@@ -15,6 +15,7 @@ h4
   font-size: 24pt  
   color: white
 p, a 
+  font-family: "AvenirNextRoundedStd";
   font-size: 14pt
   line-height: 24pt
   color: white
@@ -47,7 +48,6 @@ p, a
     &__text
       display: flex
       justify-content: space-between
-      flex-wrap: wrap
       height: 100%
     &__offer
       display: flex
@@ -67,17 +67,31 @@ p, a
     margin-bottom: 5%
     &__wrap
       flex-grow: 1
+      &-double
+        display: flex
+        justify-content: space-around
     &__name , &__text
       margin-bottom: 7%
     &__link
       align-content: flex-end
       text-decoration: none
+    
   &-offer
     width: 33%
     height: 460px
     padding: 40px
     text-align: center
     background-color: #fff
+    display: flex
+    flex-direction: column
+    &__top-wrap
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+    &__icon
+      align-self: center
+      &--right
+        margin-right: 15px 
     &--green
       background-color: #a2ca28
       text-align: left
@@ -96,11 +110,16 @@ p, a
     &--left
       text-align: left
   &-image
+    display: flex
+    justify-content: flex-end
+    align-items: flex-end
     padding: 40px
     background-repeat: no-repeat
     background-size: cover
     width: 66%
     height: 460px
+    &--left
+      justify-content: flex-start
     &__text
       color: #fd634e
       &--white
@@ -111,6 +130,7 @@ p, a
     &--flexdate
       display: flex
       justify-content: space-between
+      align-items: flex-start
     &--full
       width: 100%
     &__wrap
@@ -130,13 +150,15 @@ p, a
 .footer
   padding-top: 5%
   background-color: #0d1119
-  height: 600px
+  height: auto
   &__main-wrap
     display: flex
     flex-flow: nowrap row
     padding: 0% 10%
   &__resources
     width: 33%
+    margin-bottom: 20px
+    margin-right: 20px
   &__feedback-wrap
     width: 66%
   &__about-wrap
@@ -172,3 +194,96 @@ p, a
       width: 25%
       background-color: #a2ca28
       color: #fff
+
+@media (max-width: 1600px)
+  .header
+    &__slogan
+      padding: 40% 0% 15% 3%
+  .main
+    &-text
+      height: 300px
+    &-offer
+      height: 370px
+    &-image
+      height: 370px
+@media (max-width: 1366px)
+  .main-text__wrap-double
+    flex-flow: wrap column
+@media (max-width: 960px)
+  .header
+    &__slogan
+      padding: 50% 0% 15% 3%
+  .main
+    &-offer
+      overflow: hidden
+      width: 50%
+      height: 350px
+      padding: 5px 40px
+      &--inside
+        width: 100%
+    &-image
+      width: 50%
+      height: 350px
+      background-position: center center
+      &--full 
+        width: 100%
+    &-wrapper__offer-wrap
+      &--short
+        width: 50%
+      &--long
+        width: 50%
+  .support
+    height: 100vh
+@media (max-width: 900px)
+  .header
+    &__menu-list , &__top
+      align-items: center
+      flex-flow: wrap column
+@media (max-width: 700px)
+  .main
+    &-wrapper
+      padding: 0
+    &-wrapper__text , &__text , &-text , &-wrapper__offer
+      flex-flow: wrap column
+    &-image , &-offer , &-image--full , &-image--short , &-wrapper__offer-wrap--short , &-wrapper__offer-wrap--long
+      width: 100%
+    &-offer
+      display: flex
+      justify-content: center
+      align-items: center
+  .support__text
+    max-width: 100%
+  .footer
+    &__main-wrap , &__about-wrap
+      flex-flow: wrap column
+    &__resources , &__feedback-wrap , &__about , &__social
+      width: 100%
+      max-width: 100%
+@media (max-width: 450px)
+  .header
+    height: 100vh
+    &__menu-list , &__top
+      align-items: flex-start
+    &__slogan
+      align-self: flex-end
+  .support
+    height: 100vh
+  .footer__input
+    margin: 5px
+    &-wrap
+      display: flex
+      flex-flow: wrap column
+    &--name , &--mail , &--butt
+      width: 100%
+@media (max-width: 370px)
+  .main-offer
+    padding: 0
+    align-self: center
+    height: auto
+
+
+
+
+
+
+

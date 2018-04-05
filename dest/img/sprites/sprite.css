@@ -1,5 +1,14 @@
-.svg-Communicate {
+.svg-Avocado {
 	background: url("sprite.svg") 0 0 no-repeat;
+}
+
+.svg-Avocado-dims {
+	width: 22px;
+	height: 32px;
+}
+
+.svg-Communicate {
+	background: url("sprite.svg") 5.401689255549009% 0 no-repeat;
 }
 
 .svg-Communicate-dims {
@@ -8,7 +17,7 @@
 }
 
 .svg-Connect {
-	background: url("sprite.svg") 7.862407862407863% 0 no-repeat;
+	background: url("sprite.svg") 13.267813267813267% 0 no-repeat;
 }
 
 .svg-Connect-dims {
@@ -17,7 +26,7 @@
 }
 
 .svg-FB {
-	background: url("sprite.svg") 15.724815724815725% 0 no-repeat;
+	background: url("sprite.svg") 21.13022113022113% 0 no-repeat;
 }
 
 .svg-FB-dims {
@@ -25,8 +34,17 @@
 	height: 32px;
 }
 
+.svg-Greydrop {
+	background: url("sprite.svg") 28.028503562945367% 0 no-repeat;
+}
+
+.svg-Greydrop-dims {
+	width: 18px;
+	height: 26px;
+}
+
 .svg-IN {
-	background: url("sprite.svg") 23.587223587223587% 0 no-repeat;
+	background: url("sprite.svg") 33.415233415233416% 0 no-repeat;
 }
 
 .svg-IN-dims {
@@ -34,8 +52,17 @@
 	height: 32px;
 }
 
+.svg-Man {
+	background: url("sprite.svg") 41.27764127764128% 0 no-repeat;
+}
+
+.svg-Man-dims {
+	width: 32px;
+	height: 32px;
+}
+
 .svg-Reddrop {
-	background: url("sprite.svg") 30.62420747900567% 0 no-repeat;
+	background: url("sprite.svg") 47.850324185946356% 0 no-repeat;
 }
 
 .svg-Reddrop-dims {
@@ -44,7 +71,7 @@
 }
 
 .svg-Resources {
-	background: url("sprite.svg") 36.85503685503686% 0 no-repeat;
+	background: url("sprite.svg") 54.54545454545455% 0 no-repeat;
 }
 
 .svg-Resources-dims {
@@ -52,58 +79,31 @@
 	height: 29.59px;
 }
 
-.svg-Shape_13 {
-	background: url("sprite.svg") 43.333333333333336% 0 no-repeat;
+.svg-Straw {
+	background: url("sprite.svg") 61.64300448974639% 0 no-repeat;
 }
 
-.svg-Shape_13-dims {
-	width: 19px;
-	height: 19px;
-}
-
-.svg-Shape_14 {
-	background: url("sprite.svg") 49.385749385749385% 0 no-repeat;
-}
-
-.svg-Shape_14-dims {
-	width: 32px;
-	height: 32px;
-}
-
-.svg-Shape_81 {
-	background: url("sprite.svg") 56.54653561460987% 0 no-repeat;
-}
-
-.svg-Shape_81-dims {
+.svg-Straw-dims {
 	width: 26.95px;
 	height: 32px;
 }
 
-.svg-Shape_91 {
-	background: url("sprite.svg") 61.757719714964374% 0 no-repeat;
-}
-
-.svg-Shape_91-dims {
-	width: 18px;
-	height: 26px;
-}
-
-.svg-Shape_911 {
-	background: url("sprite.svg") 66.64908537316295% 0 no-repeat;
-}
-
-.svg-Shape_911-dims {
-	width: 21.89px;
-	height: 32px;
-}
-
 .svg-TW {
-	background: url("sprite.svg") 73.71007371007371% 0 no-repeat;
+	background: url("sprite.svg") 69.04176904176904% 0 no-repeat;
 }
 
 .svg-TW-dims {
 	width: 32px;
 	height: 31.38px;
+}
+
+.svg-Tag {
+	background: url("sprite.svg") 74.52380952380952% 0 no-repeat;
+}
+
+.svg-Tag-dims {
+	width: 19px;
+	height: 19px;
 }
 
 .svg-Training {
