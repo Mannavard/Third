@@ -15,7 +15,6 @@ h4
   font-size: 24pt  
   color: white
 p, a 
-  font-family: "AvenirNextRoundedStd";
   font-size: 14pt
   line-height: 24pt
   color: white
@@ -243,14 +242,15 @@ p, a
   .main
     &-wrapper
       padding: 0
-    &-wrapper__text , &__text , &-text , &-wrapper__offer
+    &-wrapper__text , &__text , &-text , &-wrapper__offer , &-offer__top-wrap
       flex-flow: wrap column
     &-image , &-offer , &-image--full , &-image--short , &-wrapper__offer-wrap--short , &-wrapper__offer-wrap--long
       width: 100%
-    &-offer
+    &-offer 
       display: flex
       justify-content: center
       align-items: center
+      text-align: center
   .support__text
     max-width: 100%
   .footer
